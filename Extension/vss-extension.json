@@ -49,8 +49,8 @@
             "type": "ms.vss-distributed-task.task"
         },
         {
-            "description": "Pobierz sdk dla progranu NEXO",
-            "id": "nexosdk-azure",
+            "description": "Pobierz sdk dla programu NEXO",
+            "id": "nexo-sdk-azure",
             "properties": {
                 "name": "Tasks/NexoSdkInstaller"
             },

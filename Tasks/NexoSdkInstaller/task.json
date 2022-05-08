@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
-    "id": "bf550fb9-f56f-448d-addd-6a459180f214",
+    "id": "5ff9579b-71a0-4dec-8b24-6faa399241cc",
     "name": "NexoSDK",
     "friendlyName": "Nexo SDK - InsERT",
     "description": "Pobierz sdk dla progranu NEXO",

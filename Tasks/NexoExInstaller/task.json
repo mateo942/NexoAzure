@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
-    "id": "82f8ef15-6549-41d5-992e-26d2c38571b6",
+    "id": "02b423b5-558c-410a-9248-a80c38cac775",
     "name": "NexoPacker",
     "friendlyName": "Nexo Ex Installer - InsERT",
     "description": "Zarzadzanie rozwiazaniem wlasnym",

@@ -8,8 +8,8 @@
             ],
             "DisplayNamesSuffix": "",
             "TaskIds": {
-                "NexoSdkInstaller": "bf550fb9-f56f-448d-addd-6a459180f214",
-                "NexoExInstaller": "82f8ef15-6549-41d5-992e-26d2c38571b6"
+                "NexoSdkInstaller": "5ff9579b-71a0-4dec-8b24-6faa399241cc",
+                "NexoExInstaller": "02b423b5-558c-410a-9248-a80c38cac775"
             }
         },
         {
@@ -18,8 +18,8 @@
             "VssExtensionGalleryFlags": [],
             "DisplayNamesSuffix": " (Preview)",
             "TaskIds": {
-                "NexoSdkInstaller": "bf550fb9-f56f-448d-addd-6a459180f214",
-                "NexoExInstaller": "82f8ef15-6549-41d5-992e-26d2c38571b6"
+                "NexoSdkInstaller": "5ff9579b-71a0-4dec-8b24-6faa399241cc",
+                "NexoExInstaller": "02b423b5-558c-410a-9248-a80c38cac775"
             }
         },
         {
@@ -28,8 +28,8 @@
             "VssExtensionGalleryFlags": [],
             "DisplayNamesSuffix": " (Development)",
             "TaskIds": {
-                "NexoSdkInstaller": "bf550fb9-f56f-448d-addd-6a459180f214",
-                "NexoExInstaller": "82f8ef15-6549-41d5-992e-26d2c38571b6"
+                "NexoSdkInstaller": "5ff9579b-71a0-4dec-8b24-6faa399241cc",
+                "NexoExInstaller": "02b423b5-558c-410a-9248-a80c38cac775"
             }
         }
     ]
