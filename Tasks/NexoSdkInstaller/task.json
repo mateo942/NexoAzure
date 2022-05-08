@@ -1,0 +1,37 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
+    "id": "bf550fb9-f56f-448d-addd-6a459180f214",
+    "name": "NexoSDK",
+    "friendlyName": "Nexo SDK - InsERT",
+    "description": "Pobierz sdk dla progranu NEXO",
+    "helpMarkDown": "",
+    "category": "Utility",
+    "author": "Mateusz Piątek",
+    "version": {
+        "Major": 0,
+        "Minor": 1,
+        "Patch": 0
+    },
+    "instanceNameFormat": "Nexo SDK $(versionSpec)",
+    "inputs": [
+        {
+            "name": "versionSpec",
+            "type": "string",
+            "label": "Version of NexoSDK to install",
+            "required": true,
+            "helpMarkDown": "A version or version range that specifies the NexoSDK version to make available on the path."
+          }
+    ],
+    "execution": {
+        "Node10": {
+            "target": "index.js"
+        }
+    },
+    "messages": {
+        "CouldNotDownload": "Could not download installation package from this URL: %s Error: %s",
+        "FailedWhileExtractingPacakge": "Failed while extracting downloaded package with error: %s",
+        "CopyingFoldersIntoPath": "Copying all root folders into installation path: %s",
+        "CopyingFilesIntoPath": "Copying root files (such as dotnet.exe) into installation path: %s",
+        "FailedToCopyTopLevelFiles": "Failed to copy root files into installation path: %s. Error: %s"
+    }
+}

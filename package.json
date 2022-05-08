@@ -1,0 +1,32 @@
+{
+  "name": "nexo-azure",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateo942/NexoAzure.git"
+  },
+  "scripts": {
+    "clean": "vsts-build-tools-clean",
+    "postinstall": "vsts-build-tools-install",
+    "prebuild": "vsts-build-tools-prebuild",
+    "build": "tsc",
+    "package": "vsts-build-tools-package"
+  },
+  "keywords": [],
+  "author": "Mateusz Piatek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateo942/NexoAzure/issues"
+  },
+  "homepage": "https://github.com/mateo942/NexoAzure#readme",
+  "dependencies": {
+    "azure-pipelines-task-lib": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "@types/q": "^1.5.5",
+    "gl-vsts-tasks-build-scripts": "^0.6.0",
+    "typescript": "^4.6.4"
+  }
+}

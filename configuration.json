@@ -1,0 +1,36 @@
+{
+    "environments": [
+        {
+            "Name": "production",
+            "VssExtensionIdSuffix": "",
+            "VssExtensionGalleryFlags": [
+                "Public"
+            ],
+            "DisplayNamesSuffix": "",
+            "TaskIds": {
+                "NexoSdkInstaller": "bf550fb9-f56f-448d-addd-6a459180f214",
+                "NexoExInstaller": "82f8ef15-6549-41d5-992e-26d2c38571b6"
+            }
+        },
+        {
+            "Name": "preview",
+            "VssExtensionIdSuffix": "-preview",
+            "VssExtensionGalleryFlags": [],
+            "DisplayNamesSuffix": " (Preview)",
+            "TaskIds": {
+                "NexoSdkInstaller": "bf550fb9-f56f-448d-addd-6a459180f214",
+                "NexoExInstaller": "82f8ef15-6549-41d5-992e-26d2c38571b6"
+            }
+        },
+        {
+            "Name": "dev",
+            "VssExtensionIdSuffix": "-dev",
+            "VssExtensionGalleryFlags": [],
+            "DisplayNamesSuffix": " (Development)",
+            "TaskIds": {
+                "NexoSdkInstaller": "bf550fb9-f56f-448d-addd-6a459180f214",
+                "NexoExInstaller": "82f8ef15-6549-41d5-992e-26d2c38571b6"
+            }
+        }
+    ]
+}

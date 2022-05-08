@@ -1,0 +1,63 @@
+{
+    "manifestVersion": 1,
+    "id": "nexo-ex-azure",
+    "name": "NexoSDK",
+    "version": "0.0.0",
+    "publisher": "PiatekDev",    
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Rozszerzenie InsERT nexo. Kompiluj/pakuj/wgrywaj swoje rozszerzenie",
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "tags": [
+        "insert",
+        "nexo",
+        "sdk",
+        "utility"
+    ],
+    "icons": {
+        "default": "nexo.png"        
+    },
+    "content": {
+        "details": {
+            "path": "README.md"
+        }
+    },
+    "files": [
+        {
+            "path": "Tasks"
+        }
+    ],
+    "repository" :{
+        "type": "git",
+        "uri": "https://mateuszpiatek.visualstudio.com/NexoSdk_AzurePipeline/_git/NexoSdk_AzurePipeline"
+    },
+    "contributions": [
+        {
+            "description": "Zarzadzanie rozwiazaniem wlasnym",
+            "id": "nexo-ex-installer-azure",
+            "properties": {
+                "name": "Tasks/NexoExInstaller"
+            },
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "type": "ms.vss-distributed-task.task"
+        },
+        {
+            "description": "Pobierz sdk dla progranu NEXO",
+            "id": "nexosdk-azure",
+            "properties": {
+                "name": "Tasks/NexoSdkInstaller"
+            },
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "type": "ms.vss-distributed-task.task"
+        }
+    ]
+}
